@@ -1,0 +1,19 @@
+<framework>
+    <execution>
+        <clock enabled="true" unit="hz" value="10" />
+    </execution>
+
+    <modulesToEnable>
+        <module>example</module>
+    </modulesToEnable>
+
+    <module>
+        <name>example</name>
+        <config>
+            <id>default</id>
+            <resume>threaded</resume>
+        </config>
+    </module>
+
+    <runtime name="threaded" src="thread.xml" />
+</framework>

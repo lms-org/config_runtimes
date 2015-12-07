@@ -1,0 +1,19 @@
+<framework>
+    <execution>
+        <clock enabled="true" unit="hz" value="10" />
+        <executionType>ONLY_MAIN_THREAD</executionType>
+        <paused />
+    </execution>
+
+    <modulesToEnable>
+        <module>example</module>
+    </modulesToEnable>
+
+    <module>
+        <name>example</name>
+        <config>
+            <id>threaded</id>
+            <resume>default</resume>
+        </config>
+    </module>
+</framework>
