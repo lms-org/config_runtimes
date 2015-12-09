@@ -1,7 +1,7 @@
 <framework>
     <execution>
         <clock enabled="true" unit="hz" value="10" />
-        <executionType>ONLY_MAIN_THREAD</executionType>
+        <mainThread />
         <paused />
     </execution>
 

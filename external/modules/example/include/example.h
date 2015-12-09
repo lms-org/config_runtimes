@@ -1,7 +1,6 @@
 #ifndef EXAMPLE_H
 #define EXAMPLE_H
 
-#include <lms/datamanager.h>
 #include <lms/module.h>
 
 /**
